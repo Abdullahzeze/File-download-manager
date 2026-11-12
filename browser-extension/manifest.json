@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Download Manager Bridge",
+  "version": "1.0",
+  "description": "Sends your browser's downloads to the Download Manager Mac app.",
+  "permissions": ["downloads", "cookies", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "Download Manager: click to turn on/off" }
+}
